@@ -190,6 +190,9 @@ section{
 
 .home .image img{
   padding: 4rem;
+  max-width: 100%; /* Scales the image to fit within its container */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: contain; /* Ensures the image fits without cropping */
 }
 
 .custom-shape-divider-bottom-1684324473 {
@@ -234,6 +237,9 @@ section{
 
 .about .row .image img{
   border-radius: 5%;
+  max-width: 100%; /* Scales the image to fit within its container */
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: contain; /* Ensures the image fits without cropping */
 }
 
 .about .row .content{
